@@ -1,5 +1,7 @@
 package com.example.demo.Q1_Basic;
 
+import Q4_Inheritance.Book;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -14,5 +16,6 @@ public class Test {
         //Scanner sv= new Scanner(System.in);
         //String color = sv.nextLine();
         //int speed = sv.nextInt();
+
     }
 }
