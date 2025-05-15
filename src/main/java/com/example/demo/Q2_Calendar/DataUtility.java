@@ -6,6 +6,7 @@ public class DataUtility {
     public static String getDay(int month,int day,int year){
         // Set kar rahe input se mila hua date
         Calendar cal = Calendar.getInstance();
+        //cal.set(year, month - 1, day);
         cal.set(Calendar.YEAR,year);
         cal.set(Calendar.MONTH,month - 1);
         cal.set(Calendar.DATE,day);

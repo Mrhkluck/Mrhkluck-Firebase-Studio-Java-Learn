@@ -9,6 +9,7 @@ public class DataUtility1 {
         cal.set(Calendar.MONTH,month-1);
         cal.set(Calendar.DATE,day);
         cal.set(Calendar.YEAR,year);
+        //cal.set(year, month - 1, day);
         String days[] = {"SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
         
         return days[cal.get(Calendar.DAY_OF_WEEK) - 1];
