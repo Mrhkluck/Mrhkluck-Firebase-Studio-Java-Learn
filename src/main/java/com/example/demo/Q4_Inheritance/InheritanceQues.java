@@ -1,4 +1,4 @@
-package Q4_Inheritance;
+package com.example.demo.Q4_Inheritance;
 
 // Start by creating a base class LibraryItem that contains common attributes and methods shared by all library items. Then, create subclasses Book, Magazine, and DVD that inherit from LibraryItem and include their own unique attributes and behaviors.
 

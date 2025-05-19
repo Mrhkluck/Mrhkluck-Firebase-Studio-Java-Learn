@@ -1,6 +1,5 @@
 package com.example.demo.Q1_Basic;
 
-import Q4_Inheritance.Book;
 
 public class Test {
 

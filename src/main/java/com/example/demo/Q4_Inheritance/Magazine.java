@@ -1,4 +1,4 @@
-package Q4_Inheritance;
+package com.example.demo.Q4_Inheritance;
 
 public class Magazine extends LibraryItem {
     int issueNumber;
