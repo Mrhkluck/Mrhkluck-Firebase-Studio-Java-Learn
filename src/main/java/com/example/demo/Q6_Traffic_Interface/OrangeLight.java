@@ -1,6 +1,6 @@
-package com.example.demo.Q5_TrafficLight;
+package com.example.demo.Q6_Traffic_Interface;
 
-public class OrangeLight extends TrafficLight{
+public class OrangeLight implements TrafficLight{
     @Override
     public void changeLight(){
         System.out.println("OrangeLight Says WAIT");

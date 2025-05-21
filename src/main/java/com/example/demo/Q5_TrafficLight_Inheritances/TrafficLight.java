@@ -13,7 +13,7 @@
 // Calls their respective changeLight() methods to demonstrate overriding.
 // If overloading is implemented, call the overloaded method with a parameter.
 
-package com.example.demo.Q5_TrafficLight;
+package com.example.demo.Q5_TrafficLight_Inheritances;
 
 public class TrafficLight{
     public void changeLight(){

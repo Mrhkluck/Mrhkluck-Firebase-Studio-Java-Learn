@@ -1,4 +1,4 @@
-package com.example.demo.Q5_TrafficLight;
+package com.example.demo.Q5_TrafficLight_Inheritances;
 
 public class Test {
     public static void main(String[] args) {
