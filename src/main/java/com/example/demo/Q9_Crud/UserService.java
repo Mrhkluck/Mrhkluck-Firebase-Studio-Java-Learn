@@ -5,14 +5,19 @@ public class UserService{
     //we add arry but it can take fix amount of data
     private List<User> user = new ArrayList<>(); //list is a interface and empty arrylist
 //C
-    public void addUser(User u){
+    public void addUser(User u){  //public void addUser(int i)
         user.add(u);
     }
-//R
+//Read
     public User getUserById(String Id){
-        for(User u:user){  //(datatype nameassign : ArrayListuser)
-            if(u.getId().equals(Id)){
-                return u;
+        // for(User u:user){  //(datatype nameassign : ArrayListuser)
+        //     if(u.getId().equals(Id)){
+        //         return u;
+        //     }
+        // }
+        for(int i =0;i<user.size();i++){
+            if(user.get(i).getId().equals(Id)){
+                return user.get(i);
             }
         }
         return null;
@@ -35,7 +40,7 @@ public class UserService{
 
 // D
     public boolean deleteUser(String id){
-        User oldUser = getUserById(id);
+        User oldUser = getUserById(id);   
         if(oldUser !=null){
             user.remove(oldUser);
             return true;

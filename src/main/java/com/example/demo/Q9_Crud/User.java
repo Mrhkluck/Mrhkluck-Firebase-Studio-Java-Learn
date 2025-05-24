@@ -1,5 +1,7 @@
 package com.example.demo.Q9_Crud;
 
+//Create update read  delete 
+
 // Implement a simple in-memory CRUD system in Java to manage User records.
 // Your program should include the following:
 // A User class with fields: id, name, and email.
@@ -12,7 +14,7 @@ package com.example.demo.Q9_Crud;
 // A Main class to demonstrate all CRUD operations.
 
 public class User {
-    private String id;
+    private String id;  
     private String name;
     private String email;
     
@@ -49,4 +51,5 @@ public class User {
     public String toString() {
         return "User{" + "id=" + id + ", name='" + name + "', email='" + email + "'}";
     }
+
 }

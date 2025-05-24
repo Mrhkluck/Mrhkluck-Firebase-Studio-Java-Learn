@@ -16,7 +16,7 @@ public class Main{
         System.out.println();
         
         User u2= new User("Haluid123","Aadil","aadillove@outlook.com");
-        us.addUser(u2);
+        us.addUser(u2);   
         us.getAllUsers();
         System.out.println();
 
@@ -38,7 +38,7 @@ public class Main{
         us.getAllUsers();
         System.out.println();
 
-        User u4 = new User();
+        User u4 = new User();  //int a = 10 a++
         u4.setId("Kallu123");
         u4.setName("KalluKaliya");
         u4.setEmail("kallukaliya@hotmail.com");
