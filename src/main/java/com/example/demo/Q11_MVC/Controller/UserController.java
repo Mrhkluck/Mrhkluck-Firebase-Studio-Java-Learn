@@ -1,8 +1,9 @@
 package com.example.demo.Q11_MVC.Controller;
+
 import java.util.List;
-import Model.User;
-import Service.UserService;
-import View.UserView;
+import com.example.demo.Q11_MVC.Model.User;
+import com.example.demo.Q11_MVC.Service.UserService;
+import com.example.demo.Q11_MVC.View.UserView;
 
 public class UserController {
     private UserService service;
