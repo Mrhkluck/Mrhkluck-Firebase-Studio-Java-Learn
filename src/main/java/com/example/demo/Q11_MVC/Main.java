@@ -26,19 +26,12 @@ public class Main {
         ProductService service = new ProductService();
         ProductView view = new ProductView();
         ProductController controller = new ProductController(service, view);
-
         controller.createProduct(876, "Mrhk", 0.2f);
         controller.createProduct(875, "Rashid", 097.56f);
-
         controller.readAllProduct();
         controller.deleteProd(875);
-
         controller.readAllProduct();
-
         controller.updateProd(876, "Lucky", 100.097f);
         controller.readAllProduct();
-
-
     }
-
 }
