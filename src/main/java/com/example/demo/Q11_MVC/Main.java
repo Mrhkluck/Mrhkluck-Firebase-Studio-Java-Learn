@@ -1,7 +1,7 @@
 package com.example.demo.Q11_MVC;
 //import Controller.ProductController;
 import com.example.demo.Q11_MVC.Controller.*;
-import com.example.demo.Q11_MVC.Model.User.*;
+
 //import Service.ProductService;
 import com.example.demo.Q11_MVC.Service.*;
 //import View.ProductView;

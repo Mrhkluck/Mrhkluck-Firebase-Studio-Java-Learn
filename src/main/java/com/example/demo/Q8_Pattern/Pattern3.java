@@ -1,6 +1,6 @@
 package com.example.demo.Q8_Pattern;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 // ***
 // **
